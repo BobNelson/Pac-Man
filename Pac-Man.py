@@ -429,17 +429,17 @@ d = d + 48
 mc.postToChat("You have " + str(int(t)) + " out of " + str(int(d)) + " dots")
 
 while t < d:
-    if 61 < mc.player.getPos().x < 62 and 43 < mc.player.getPos().z < 45 and 4 < mc.player.getPos().y < 7:
+    if 61 < mc.player.getPos().x < 63 and 33 < mc.player.getPos().z < 35 and 4 < mc.player.getPos().y < 7:
         mc.player.setPos(34.5, 5, 44.5)
-    if 15 < mc.player.getPos().x < 17 and 43 < mc.player.getPos().z < 45 and 4 < mc.player.getPos().Y < 7:
+    if 15 < mc.player.getPos().x < 17 and 33 < mc.player.getPos().z < 35 and 4 < mc.player.getPos().Y < 7:
         mc.player.setPos(76.5, 5, 44.5)
-    if 61 < mc.player.getPos().x < 62 and 44 < mc.player.getPos().z < 46 and 4 < mc.player.getPos().y < 7:
+    if 61 < mc.player.getPos().x < 63 and 34 < mc.player.getPos().z < 36 and 4 < mc.player.getPos().y < 7:
         mc.player.setPos(34.5, 5, 45.5)
-    if 15 < mc.player.getPos().x < 17 and 44 < mc.player.getPos().z < 46 and 4 < mc.player.getPos().y < 7:
+    if 15 < mc.player.getPos().x < 17 and 34 < mc.player.getPos().z < 36 and 4 < mc.player.getPos().y < 7:
         mc.player.setPos(76.5, 5, 45.5)
-    if 61 < mc.player.getPos().x < 62 and 45 < mc.player.getPos().z < 47 and 4 < mc.player.getPos().y < 7:
+    if 61 < mc.player.getPos().x < 63 and 35 < mc.player.getPos().z < 37 and 4 < mc.player.getPos().y < 7:
         mc.player.setPos(34.5, 5, 46.5)
-    if 15 < mc.player.getPos().x < 17 and 45 < mc.player.getPos().z < 47 and 4 < mc.player.getPos().y < 7:
+    if 15 < mc.player.getPos().x < 17 and 35 < mc.player.getPos().z < 37 and 4 < mc.player.getPos().y < 7:
         mc.player.setPos(76.5, 5, 46.5)
     hits = mc.events.pollBlockHits()
     for hit in hits:
